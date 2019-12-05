@@ -1,5 +1,5 @@
 CROSSCOMPILE := 
-CFLAGS  := -Wall -O2 -c
+CFLAGS  := -Wall -O2 -c -Wall -Werror -g
 LDFLAGS :=
 TARGET  := sram_malloc
 
